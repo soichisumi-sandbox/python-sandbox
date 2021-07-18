@@ -8,8 +8,11 @@ authors = ["Soichi Sumi <soichi.sumi@gmail.com>"]
 python = "^3.9"
 pytest = "^6.2.4"
 pytest-mock = "^3.6.1"
+line-profiler = "^3.3.0"
 
 [tool.poetry.dev-dependencies]
+line-profiler = "^3.3.0"
+pprofile = "^2.0.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
